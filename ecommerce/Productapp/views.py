@@ -364,7 +364,45 @@ class OrderView(ListAPIView):
                         order_data_obj = OrderSerializer(order_data_qs,data=order_data,partial=True)
                         order_data_obj.is_valid(raise_exception=True)
                         order_data_obj.save(status=status_qs)
-                        return Response({"Status":status.HTTP_200_OK,"Message":"Updated Successfully"})
+                        # neweditstart
+                        for i in self.request.data:
+                            try:id=i['id']
+                            except:id=''
+                            try:product = i['product']
+                            except:product = ''
+                            try:quantity = i['quantity']
+                            except:quantity = ''
+                            try:orderid =i['order_id']
+                            except:orderid=''
+                            if product:
+                                product_qs = ProductModel.objects.filter(id=product).select_related('category')
+                                if product_qs.count():
+                                    product_qs = product_qs.first()            
+                                else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"No record found with given id"})                      
+                            if id : 
+                                order_qs = productorderedModel.objects.filter(id)
+                                if order_qs.count():
+                                    order_qs = order_qs.first()
+                                    if not product_qs:product_qs = order_qs.product
+                                order_obj = Productorderedserializer(data=i,partial=True)
+                                msg = "Updated Successfully"
+                            if orderid:
+                                ordermainqs = OrderModel.objects.filter(id=orderid)
+                                if ordermainqs.count():
+                                    ordermainqs = ordermainqs.first()
+                                else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"No record found with given id"})      
+                            else:
+                                # for i in self.request.data
+                                stock = product_qs.quantity
+                                product_qs.quantity=int(stock)-int(quantity)
+                                product_qs.save()
+                                order_obj = Productorderedserializer(data=i,partial=True)
+                                msg="Updated Successfully"
+                            order_obj.is_valid(raise_exception=True)
+                            order_obj.save(product=product_qs,order_id=ordermainqs)    
+                        return Response({"Status":status.HTTP_200_OK,"Message":msg})
+                        # new edit end
+                        # return Response({"Status":status.HTTP_200_OK,"Message":"Updated Successfully"})
                       
                     else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"No Records found with given id"})
                 else:
@@ -404,7 +442,7 @@ class OrderView(ListAPIView):
                             msg="Saved Successfully"
                         order_obj.is_valid(raise_exception=True)
                         order_obj.save(product=product_qs,order_id=order_data_saved)    
-                    return Response({"Status":status.HTTP_200_OK,"Message":msg})
+                    return Response({"Status":status.HTTP_200_OK,"Message":msg,"orderid":order_data_saved.id})
         except Exception as e: return Response({"Status":status.HTTP_400_BAD_REQUEST,"Message":str(e)})
     
     def delete(self,request):
