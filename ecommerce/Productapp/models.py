@@ -57,10 +57,10 @@ class CityModel(models.Model):
     updated_date = models.DateTimeField(auto_now=True)
 
 class OrderModel(models.Model):
-    # product = models.ForeignKey(ProductModel,on_delete = models.DO_NOTHING)
+    product = models.ForeignKey(ProductModel,on_delete = models.DO_NOTHING ,null=True)
     customer_name = models.CharField(max_length = 100,blank=True,null=True)
     delivery_address = models.CharField(max_length= 200,blank=True,null=True)
-    # quantity = models.FloatField(blank=True,null=True)
+    quantity = models.FloatField(blank=True,null=True)
     status = models.ForeignKey(PurchaseStatusModel,on_delete=models.DO_NOTHING)
     city = models.CharField(max_length=100,blank=True,null=True)
     contact = models.CharField(max_length=200,blank=True,null=True)
@@ -71,14 +71,14 @@ class OrderModel(models.Model):
     created_date = models.DateTimeField(auto_now_add=True)
     updated_date = models.DateTimeField(auto_now = True)
 
-class productorderedModel(models.Model):
-    order_id = models.ForeignKey(OrderModel,on_delete = models.CASCADE)
-    product = models.ForeignKey(ProductModel,on_delete=models.DO_NOTHING,null=True,blank=True)
-    quantity = models.FloatField(blank=True,null=True)
-    subtotal = models.FloatField(blank=True,null=True)
-    description = models.TextField(blank=True,null=True)
-    created_date = models.DateTimeField(auto_now_add=True)
-    updated_date = models.DateTimeField(auto_now = True) 
+# class productorderedModel(models.Model):
+#     order_id = models.ForeignKey(OrderModel,on_delete = models.CASCADE)
+#     product = models.ForeignKey(ProductModel,on_delete=models.DO_NOTHING,null=True,blank=True)
+#     quantity = models.FloatField(blank=True,null=True)
+#     subtotal = models.FloatField(blank=True,null=True)
+#     description = models.TextField(blank=True,null=True)
+#     created_date = models.DateTimeField(auto_now_add=True)
+#     updated_date = models.DateTimeField(auto_now = True) 
 
 class ContactModel(models.Model):
     address = models.CharField(max_length=200,blank=True,null=True)
@@ -92,22 +92,22 @@ class ContactModel(models.Model):
 
 class MissingorderModel(models.Model):
     customer_name = models.CharField(max_length=200,blank=True,null=True)
-    # product = models.ForeignKey(ProductModel,on_delete=models.DO_NOTHING)
+    product = models.ForeignKey(ProductModel,on_delete=models.DO_NOTHING,null=True)
     contact = models.CharField(max_length = 100,blank=True,null=True)
     city = models.CharField(max_length=100,blank=True,null=True)
     created_date = models.DateTimeField(auto_now_add = True)
     updated_date = models.DateTimeField(auto_now=True)
 
-class MissingorderedproductModel(models.Model):
-    missorder_id = models.ForeignKey(MissingorderModel,on_delete=models.CASCADE)
-    product = models.ForeignKey(ProductModel,on_delete=models.DO_NOTHING)
-    created_date = models.DateTimeField(auto_now_add = True)
-    updated_date = models.DateTimeField(auto_now=True)
+# class MissingorderedproductModel(models.Model):
+#     missorder_id = models.ForeignKey(MissingorderModel,on_delete=models.CASCADE)
+#     product = models.ForeignKey(ProductModel,on_delete=models.DO_NOTHING)
+#     created_date = models.DateTimeField(auto_now_add = True)
+#     updated_date = models.DateTimeField(auto_now=True)
 #not used this discount model in this project
-class DiscountModel(models.Model):
-    product = models.ForeignKey(ProductModel,on_delete = models.CASCADE)
-    quantity = models.IntegerField(default=0)
-    price = models.FloatField(default=0.0)
-    description = models.TextField(blank=True,null=True)
-    created_date = models.DateTimeField(auto_now_add=True)
-    updated_date = models.DateTimeField(auto_now=True)
+# class DiscountModel(models.Model):
+#     product = models.ForeignKey(ProductModel,on_delete = models.CASCADE)
+#     quantity = models.IntegerField(default=0)
+#     price = models.FloatField(default=0.0)
+#     description = models.TextField(blank=True,null=True)
+#     created_date = models.DateTimeField(auto_now_add=True)
+#     updated_date = models.DateTimeField(auto_now=True)

@@ -1,0 +1,1664 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "ListAPIView",
+        "importPath": "rest_framework.generics",
+        "description": "rest_framework.generics",
+        "isExtraImport": true,
+        "detail": "rest_framework.generics",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "AllowAny",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticated",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticatedOrReadOnly",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "Validate",
+        "importPath": "ecommerce.validation",
+        "description": "ecommerce.validation",
+        "isExtraImport": true,
+        "detail": "ecommerce.validation",
+        "documentation": {}
+    },
+    {
+        "label": "rest_framework",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "rest_framework_simplejwt",
+        "description": "rest_framework_simplejwt",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "Productapp.models",
+        "description": "Productapp.models",
+        "isExtraImport": true,
+        "detail": "Productapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "default",
+        "importPath": "email.policy",
+        "description": "email.policy",
+        "isExtraImport": true,
+        "detail": "email.policy",
+        "documentation": {}
+    },
+    {
+        "label": "default",
+        "importPath": "email.policy",
+        "description": "email.policy",
+        "isExtraImport": true,
+        "detail": "email.policy",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "Productapp.serializers",
+        "description": "Productapp.serializers",
+        "isExtraImport": true,
+        "detail": "Productapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "ecommerce.globalimport",
+        "description": "ecommerce.globalimport",
+        "isExtraImport": true,
+        "detail": "ecommerce.globalimport",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "ecommerce.globalimport",
+        "description": "ecommerce.globalimport",
+        "isExtraImport": true,
+        "detail": "ecommerce.globalimport",
+        "documentation": {}
+    },
+    {
+        "label": "django.contrib.auth.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "AbstractUser",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "django.contrib.auth.validators",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib.auth.validators",
+        "description": "django.contrib.auth.validators",
+        "detail": "django.contrib.auth.validators",
+        "documentation": {}
+    },
+    {
+        "label": "django.utils.timezone",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "detail": "django.utils.timezone",
+        "documentation": {}
+    },
+    {
+        "label": "UserModel",
+        "importPath": "Userapp.models",
+        "description": "Userapp.models",
+        "isExtraImport": true,
+        "detail": "Userapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "Userapp.models",
+        "description": "Userapp.models",
+        "isExtraImport": true,
+        "detail": "Userapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "_MAX_LENGTH",
+        "importPath": "unittest.util",
+        "description": "unittest.util",
+        "isExtraImport": true,
+        "detail": "unittest.util",
+        "documentation": {}
+    },
+    {
+        "label": "fields",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "make_password",
+        "importPath": "django.contrib.auth.hashers",
+        "description": "django.contrib.auth.hashers",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.hashers",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "Userapp.serializers",
+        "description": "Userapp.serializers",
+        "isExtraImport": true,
+        "detail": "Userapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "ecommerce.ecommerce.asgi",
+        "description": "ecommerce.ecommerce.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "ecommerce.ecommerce.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "ecommerce.ecommerce.settings",
+        "description": "ecommerce.ecommerce.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = '$^vgdd1d^(pqx-@(nhza($g-&0l_e8%%=cwscd56#!s+fibj_d'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['*']\nCORS_ORIGIN_ALLOW_ALL=True\n# Application definition",
+        "detail": "ecommerce.ecommerce.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "ecommerce.ecommerce.settings",
+        "description": "ecommerce.ecommerce.settings",
+        "peekOfCode": "SECRET_KEY = '$^vgdd1d^(pqx-@(nhza($g-&0l_e8%%=cwscd56#!s+fibj_d'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['*']\nCORS_ORIGIN_ALLOW_ALL=True\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
+        "detail": "ecommerce.ecommerce.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "ecommerce.ecommerce.settings",
+        "description": "ecommerce.ecommerce.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = ['*']\nCORS_ORIGIN_ALLOW_ALL=True\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
+        "detail": "ecommerce.ecommerce.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "ecommerce.ecommerce.settings",
+        "description": "ecommerce.ecommerce.settings",
+        "peekOfCode": "ALLOWED_HOSTS = ['*']\nCORS_ORIGIN_ALLOW_ALL=True\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "ecommerce.ecommerce.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "ecommerce.ecommerce.settings",
+        "description": "ecommerce.ecommerce.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'Userapp',\n    'Productapp',\n    #3rd party",
+        "detail": "ecommerce.ecommerce.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "ecommerce.ecommerce.settings",
+        "description": "ecommerce.ecommerce.settings",
+        "peekOfCode": "MIDDLEWARE = [\n     \"corsheaders.middleware.CorsMiddleware\",\n     'django.middleware.common.CommonMiddleware',\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]",
+        "detail": "ecommerce.ecommerce.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "ecommerce.ecommerce.settings",
+        "description": "ecommerce.ecommerce.settings",
+        "peekOfCode": "ROOT_URLCONF = 'ecommerce.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "ecommerce.ecommerce.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "ecommerce.ecommerce.settings",
+        "description": "ecommerce.ecommerce.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "ecommerce.ecommerce.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "ecommerce.ecommerce.settings",
+        "description": "ecommerce.ecommerce.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'ecommerce.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/3.1/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "ecommerce.ecommerce.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "ecommerce.ecommerce.settings",
+        "description": "ecommerce.ecommerce.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "ecommerce.ecommerce.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "ecommerce.ecommerce.settings",
+        "description": "ecommerce.ecommerce.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "ecommerce.ecommerce.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "ecommerce.ecommerce.settings",
+        "description": "ecommerce.ecommerce.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.1/howto/static-files/\nSTATIC_URL = '/static/'\nAUTH_USER_MODEL = 'Userapp.UserModel'\nMEDIA_URL = '/media/'",
+        "detail": "ecommerce.ecommerce.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "ecommerce.ecommerce.settings",
+        "description": "ecommerce.ecommerce.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.1/howto/static-files/\nSTATIC_URL = '/static/'\nAUTH_USER_MODEL = 'Userapp.UserModel'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')",
+        "detail": "ecommerce.ecommerce.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "ecommerce.ecommerce.settings",
+        "description": "ecommerce.ecommerce.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.1/howto/static-files/\nSTATIC_URL = '/static/'\nAUTH_USER_MODEL = 'Userapp.UserModel'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nREST_FRAMEWORK = {",
+        "detail": "ecommerce.ecommerce.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_L10N",
+        "kind": 5,
+        "importPath": "ecommerce.ecommerce.settings",
+        "description": "ecommerce.ecommerce.settings",
+        "peekOfCode": "USE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.1/howto/static-files/\nSTATIC_URL = '/static/'\nAUTH_USER_MODEL = 'Userapp.UserModel'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nREST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': [",
+        "detail": "ecommerce.ecommerce.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "ecommerce.ecommerce.settings",
+        "description": "ecommerce.ecommerce.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.1/howto/static-files/\nSTATIC_URL = '/static/'\nAUTH_USER_MODEL = 'Userapp.UserModel'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nREST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': [\n        'rest_framework_simplejwt.authentication.JWTAuthentication',",
+        "detail": "ecommerce.ecommerce.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "ecommerce.ecommerce.settings",
+        "description": "ecommerce.ecommerce.settings",
+        "peekOfCode": "STATIC_URL = '/static/'\nAUTH_USER_MODEL = 'Userapp.UserModel'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nREST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': [\n        'rest_framework_simplejwt.authentication.JWTAuthentication',\n    ],\n    # 'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',\n    # 'PAGE_SIZE': 100",
+        "detail": "ecommerce.ecommerce.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_USER_MODEL",
+        "kind": 5,
+        "importPath": "ecommerce.ecommerce.settings",
+        "description": "ecommerce.ecommerce.settings",
+        "peekOfCode": "AUTH_USER_MODEL = 'Userapp.UserModel'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nREST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': [\n        'rest_framework_simplejwt.authentication.JWTAuthentication',\n    ],\n    # 'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',\n    # 'PAGE_SIZE': 100\n}",
+        "detail": "ecommerce.ecommerce.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_URL",
+        "kind": 5,
+        "importPath": "ecommerce.ecommerce.settings",
+        "description": "ecommerce.ecommerce.settings",
+        "peekOfCode": "MEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nREST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': [\n        'rest_framework_simplejwt.authentication.JWTAuthentication',\n    ],\n    # 'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',\n    # 'PAGE_SIZE': 100\n}\n# pagination",
+        "detail": "ecommerce.ecommerce.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_ROOT",
+        "kind": 5,
+        "importPath": "ecommerce.ecommerce.settings",
+        "description": "ecommerce.ecommerce.settings",
+        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nREST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': [\n        'rest_framework_simplejwt.authentication.JWTAuthentication',\n    ],\n    # 'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',\n    # 'PAGE_SIZE': 100\n}\n# pagination\n# REST_FRAMEWORK = {",
+        "detail": "ecommerce.ecommerce.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REST_FRAMEWORK",
+        "kind": 5,
+        "importPath": "ecommerce.ecommerce.settings",
+        "description": "ecommerce.ecommerce.settings",
+        "peekOfCode": "REST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': [\n        'rest_framework_simplejwt.authentication.JWTAuthentication',\n    ],\n    # 'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',\n    # 'PAGE_SIZE': 100\n}\n# pagination\n# REST_FRAMEWORK = {\n#     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination',",
+        "detail": "ecommerce.ecommerce.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SIMPLE_JWT",
+        "kind": 5,
+        "importPath": "ecommerce.ecommerce.settings",
+        "description": "ecommerce.ecommerce.settings",
+        "peekOfCode": "SIMPLE_JWT = {\n    'ACCESS_TOKEN_LIFETIME': timedelta(minutes=30),\n    'REFRESH_TOKEN_LIFETIME': timedelta(days=1),\n    # 'REFRESH_TOKEN_LIFETIME': timedelta(minutes=1),\n    'ROTATE_REFRESH_TOKENS': False,\n    'BLACKLIST_AFTER_ROTATION': False,\n    'UPDATE_LAST_LOGIN': False,\n    'ALGORITHM': 'HS256',\n    'SIGNING_KEY': SECRET_KEY,\n    'VERIFYING_KEY': None,",
+        "detail": "ecommerce.ecommerce.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "ecommerce.ecommerce.urls",
+        "description": "ecommerce.ecommerce.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n     path('api/token/',\n         jwt_views.TokenObtainPairView.as_view(),\n         name ='token_obtain_pair'),\n    path('api/token/refresh/',\n         jwt_views.TokenRefreshView.as_view(),\n         name ='token_refresh'),\n    path('user/',include('Userapp.urls')),\n    path('product/',include('Productapp.urls')),",
+        "detail": "ecommerce.ecommerce.urls",
+        "documentation": {}
+    },
+    {
+        "label": "Validate",
+        "kind": 2,
+        "importPath": "ecommerce.ecommerce.validation",
+        "description": "ecommerce.ecommerce.validation",
+        "peekOfCode": "def Validate(data,mandatory):\n    not_present = []\n    for x in mandatory:\n        if x not in data:\n            not_present.append(x)\n            return (f\"{x} Is Not Presnet\")\n        else:\n            if data[x] == \"\":\n                not_present.append(x)\n                return (f\"{x} Cannot Use as null\" )",
+        "detail": "ecommerce.ecommerce.validation",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "ecommerce.ecommerce.wsgi",
+        "description": "ecommerce.ecommerce.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "ecommerce.ecommerce.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.migrations.0001_initial",
+        "description": "ecommerce.Productapp.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='ProductModel',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('product_name', models.CharField(max_length=200)),",
+        "detail": "ecommerce.Productapp.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.migrations.0002_categorymodel_citymodel_imagemodel_ordermodel_and_more",
+        "description": "ecommerce.Productapp.migrations.0002_categorymodel_citymodel_imagemodel_ordermodel_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Productapp', '0001_initial'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='CategoryModel',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('category_type', models.CharField(blank=True, max_length=100)),",
+        "detail": "ecommerce.Productapp.migrations.0002_categorymodel_citymodel_imagemodel_ordermodel_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.migrations.0003_missingordermodel",
+        "description": "ecommerce.Productapp.migrations.0003_missingordermodel",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Productapp', '0002_categorymodel_citymodel_imagemodel_ordermodel_and_more'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='MissingorderModel',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('customer_name', models.CharField(blank=True, max_length=200)),",
+        "detail": "ecommerce.Productapp.migrations.0003_missingordermodel",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.migrations.0004_contactmodel",
+        "description": "ecommerce.Productapp.migrations.0004_contactmodel",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Productapp', '0003_missingordermodel'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='ContactModel',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('address', models.CharField(blank=True, max_length=200)),",
+        "detail": "ecommerce.Productapp.migrations.0004_contactmodel",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.migrations.0005_contactmodel_whatsapp",
+        "description": "ecommerce.Productapp.migrations.0005_contactmodel_whatsapp",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Productapp', '0004_contactmodel'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='contactmodel',\n            name='whatsapp',\n            field=models.CharField(blank=True, max_length=200),\n        ),",
+        "detail": "ecommerce.Productapp.migrations.0005_contactmodel_whatsapp",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.migrations.0006_productmodel_delhivery_charge",
+        "description": "ecommerce.Productapp.migrations.0006_productmodel_delhivery_charge",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Productapp', '0005_contactmodel_whatsapp'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='productmodel',\n            name='delhivery_charge',\n            field=models.CharField(blank=True, max_length=200),\n        ),",
+        "detail": "ecommerce.Productapp.migrations.0006_productmodel_delhivery_charge",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.migrations.0007_rename_delhivery_charge_productmodel_delivery_charge",
+        "description": "ecommerce.Productapp.migrations.0007_rename_delhivery_charge_productmodel_delivery_charge",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Productapp', '0006_productmodel_delhivery_charge'),\n    ]\n    operations = [\n        migrations.RenameField(\n            model_name='productmodel',\n            old_name='delhivery_charge',\n            new_name='delivery_charge',\n        ),",
+        "detail": "ecommerce.Productapp.migrations.0007_rename_delhivery_charge_productmodel_delivery_charge",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.migrations.0008_alter_categorymodel_category_type_and_more",
+        "description": "ecommerce.Productapp.migrations.0008_alter_categorymodel_category_type_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Productapp', '0007_rename_delhivery_charge_productmodel_delivery_charge'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='categorymodel',\n            name='category_type',\n            field=models.CharField(blank=True, max_length=100, null=True),\n        ),",
+        "detail": "ecommerce.Productapp.migrations.0008_alter_categorymodel_category_type_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.migrations.0009_alter_missingordermodel_city",
+        "description": "ecommerce.Productapp.migrations.0009_alter_missingordermodel_city",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Productapp', '0008_alter_categorymodel_category_type_and_more'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='missingordermodel',\n            name='city',\n            field=models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.DO_NOTHING, to='Productapp.citymodel'),\n        ),",
+        "detail": "ecommerce.Productapp.migrations.0009_alter_missingordermodel_city",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.migrations.0010_productmodel_is_discount_discountmodel",
+        "description": "ecommerce.Productapp.migrations.0010_productmodel_is_discount_discountmodel",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Productapp', '0009_alter_missingordermodel_city'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='productmodel',\n            name='is_discount',\n            field=models.BooleanField(default=False),\n        ),",
+        "detail": "ecommerce.Productapp.migrations.0010_productmodel_is_discount_discountmodel",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.migrations.0011_rename_title_productmodel_title",
+        "description": "ecommerce.Productapp.migrations.0011_rename_title_productmodel_title",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Productapp', '0010_productmodel_is_discount_discountmodel'),\n    ]\n    operations = [\n        migrations.RenameField(\n            model_name='productmodel',\n            old_name='Title',\n            new_name='title',\n        ),",
+        "detail": "ecommerce.Productapp.migrations.0011_rename_title_productmodel_title",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.migrations.0012_alter_productmodel_delivery_charge",
+        "description": "ecommerce.Productapp.migrations.0012_alter_productmodel_delivery_charge",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Productapp', '0011_rename_title_productmodel_title'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='productmodel',\n            name='delivery_charge',\n            field=models.FloatField(default=0.0),\n        ),",
+        "detail": "ecommerce.Productapp.migrations.0012_alter_productmodel_delivery_charge",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.migrations.0013_alter_missingordermodel_city_alter_ordermodel_city",
+        "description": "ecommerce.Productapp.migrations.0013_alter_missingordermodel_city_alter_ordermodel_city",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Productapp', '0012_alter_productmodel_delivery_charge'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='missingordermodel',\n            name='city',\n            field=models.CharField(blank=True, max_length=100, null=True),\n        ),",
+        "detail": "ecommerce.Productapp.migrations.0013_alter_missingordermodel_city_alter_ordermodel_city",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.migrations.0014_productmodel_status",
+        "description": "ecommerce.Productapp.migrations.0014_productmodel_status",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Productapp', '0013_alter_missingordermodel_city_alter_ordermodel_city'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='productmodel',\n            name='status',\n            field=models.BooleanField(default=True),\n        ),",
+        "detail": "ecommerce.Productapp.migrations.0014_productmodel_status",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.migrations.0015_ordermodel_total_price",
+        "description": "ecommerce.Productapp.migrations.0015_ordermodel_total_price",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Productapp', '0014_productmodel_status'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='ordermodel',\n            name='total_price',\n            field=models.FloatField(default=0.0),\n        ),",
+        "detail": "ecommerce.Productapp.migrations.0015_ordermodel_total_price",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.migrations.0016_remove_ordermodel_product_remove_ordermodel_quantity_and_more",
+        "description": "ecommerce.Productapp.migrations.0016_remove_ordermodel_product_remove_ordermodel_quantity_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Productapp', '0015_ordermodel_total_price'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='ordermodel',\n            name='product',\n        ),\n        migrations.RemoveField(",
+        "detail": "ecommerce.Productapp.migrations.0016_remove_ordermodel_product_remove_ordermodel_quantity_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.migrations.0017_remove_missingordermodel_product_and_more",
+        "description": "ecommerce.Productapp.migrations.0017_remove_missingordermodel_product_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Productapp', '0016_remove_ordermodel_product_remove_ordermodel_quantity_and_more'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='missingordermodel',\n            name='product',\n        ),\n        migrations.CreateModel(",
+        "detail": "ecommerce.Productapp.migrations.0017_remove_missingordermodel_product_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.migrations.0018_productorderedmodel_subtotal",
+        "description": "ecommerce.Productapp.migrations.0018_productorderedmodel_subtotal",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Productapp', '0017_remove_missingordermodel_product_and_more'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='productorderedmodel',\n            name='subtotal',\n            field=models.FloatField(blank=True, null=True),\n        ),",
+        "detail": "ecommerce.Productapp.migrations.0018_productorderedmodel_subtotal",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.migrations.0019_rename_total_price_ordermodel_delivery_charge_and_more",
+        "description": "ecommerce.Productapp.migrations.0019_rename_total_price_ordermodel_delivery_charge_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Productapp', '0018_productorderedmodel_subtotal'),\n    ]\n    operations = [\n        migrations.RenameField(\n            model_name='ordermodel',\n            old_name='total_price',\n            new_name='delivery_charge',\n        ),",
+        "detail": "ecommerce.Productapp.migrations.0019_rename_total_price_ordermodel_delivery_charge_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.migrations.0020_alter_discountmodel_quantity",
+        "description": "ecommerce.Productapp.migrations.0020_alter_discountmodel_quantity",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Productapp', '0019_rename_total_price_ordermodel_delivery_charge_and_more'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='discountmodel',\n            name='quantity',\n            field=models.IntegerField(default=0),\n        ),",
+        "detail": "ecommerce.Productapp.migrations.0020_alter_discountmodel_quantity",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.migrations.0021_purchasestatusmodel_color",
+        "description": "ecommerce.Productapp.migrations.0021_purchasestatusmodel_color",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Productapp', '0020_alter_discountmodel_quantity'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='purchasestatusmodel',\n            name='color',\n            field=models.CharField(default='white', max_length=100),\n        ),",
+        "detail": "ecommerce.Productapp.migrations.0021_purchasestatusmodel_color",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.migrations.0022_alter_productmodel_size",
+        "description": "ecommerce.Productapp.migrations.0022_alter_productmodel_size",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Productapp', '0021_purchasestatusmodel_color'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='productmodel',\n            name='size',\n            field=models.CharField(blank=True, max_length=100, null=True),\n        ),",
+        "detail": "ecommerce.Productapp.migrations.0022_alter_productmodel_size",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.migrations.0023_productmodel_quanity_text_productmodel_rank",
+        "description": "ecommerce.Productapp.migrations.0023_productmodel_quanity_text_productmodel_rank",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Productapp', '0022_alter_productmodel_size'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='productmodel',\n            name='quanity_text',\n            field=models.CharField(blank=True, max_length=100, null=True),\n        ),",
+        "detail": "ecommerce.Productapp.migrations.0023_productmodel_quanity_text_productmodel_rank",
+        "documentation": {}
+    },
+    {
+        "label": "ProductappConfig",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.apps",
+        "description": "ecommerce.Productapp.apps",
+        "peekOfCode": "class ProductappConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'Productapp'",
+        "detail": "ecommerce.Productapp.apps",
+        "documentation": {}
+    },
+    {
+        "label": "CategoryModel",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.models",
+        "description": "ecommerce.Productapp.models",
+        "peekOfCode": "class CategoryModel(models.Model):\n    category_type = models.CharField(max_length=100,blank=True,null=True)\n    description = models.TextField(blank=True,null=True)\n    created_date = models.DateTimeField(auto_now_add=True)\n    updated_date = models.DateTimeField(auto_now=True)\nclass ImageModel(models.Model):\n    image = models.ImageField(upload_to='Image',blank=True,null=True)\n    description = models.TextField(blank=True,null=True)\n    created_date = models.DateTimeField(auto_now_add=True)\n    updated_date = models.DateTimeField(auto_now = True)",
+        "detail": "ecommerce.Productapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "ImageModel",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.models",
+        "description": "ecommerce.Productapp.models",
+        "peekOfCode": "class ImageModel(models.Model):\n    image = models.ImageField(upload_to='Image',blank=True,null=True)\n    description = models.TextField(blank=True,null=True)\n    created_date = models.DateTimeField(auto_now_add=True)\n    updated_date = models.DateTimeField(auto_now = True)\nclass ProductModel(models.Model):\n    category = models.ForeignKey(CategoryModel,on_delete=models.CASCADE)\n    brand = models.CharField(max_length=100,blank=True,null=True)\n    code = models.CharField(max_length=100,blank=True,null=True)\n    price = models.FloatField(default=0.0)",
+        "detail": "ecommerce.Productapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "ProductModel",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.models",
+        "description": "ecommerce.Productapp.models",
+        "peekOfCode": "class ProductModel(models.Model):\n    category = models.ForeignKey(CategoryModel,on_delete=models.CASCADE)\n    brand = models.CharField(max_length=100,blank=True,null=True)\n    code = models.CharField(max_length=100,blank=True,null=True)\n    price = models.FloatField(default=0.0)\n    old_price = models.FloatField(default=0.0)\n    size = models.CharField(max_length=100,null=True,blank=True)\n    quantity = models.FloatField(default=0.0)\n    quanity_text = models.CharField(max_length=100,blank=True,null=True)\n    rank = models.IntegerField(blank=True,null=True)",
+        "detail": "ecommerce.Productapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "PurchaseStatusModel",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.models",
+        "description": "ecommerce.Productapp.models",
+        "peekOfCode": "class PurchaseStatusModel(models.Model):\n    status = models.CharField(max_length=100,null=True,blank=True)\n    color= models.CharField(max_length=100,default=\"white\")\n    description = models.TextField(blank=True,null=True)\n    created_date = models.DateTimeField(auto_now_add=True)\n    updated_date = models.DateTimeField(auto_now=True)\nclass CityModel(models.Model):\n    city_name = models.CharField(max_length = 100,null=True)\n    description = models.TextField(blank=True,null=True)\n    created_date = models.DateTimeField(auto_now_add=True)",
+        "detail": "ecommerce.Productapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "CityModel",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.models",
+        "description": "ecommerce.Productapp.models",
+        "peekOfCode": "class CityModel(models.Model):\n    city_name = models.CharField(max_length = 100,null=True)\n    description = models.TextField(blank=True,null=True)\n    created_date = models.DateTimeField(auto_now_add=True)\n    updated_date = models.DateTimeField(auto_now=True)\nclass OrderModel(models.Model):\n    # product = models.ForeignKey(ProductModel,on_delete = models.DO_NOTHING)\n    customer_name = models.CharField(max_length = 100,blank=True,null=True)\n    delivery_address = models.CharField(max_length= 200,blank=True,null=True)\n    # quantity = models.FloatField(blank=True,null=True)",
+        "detail": "ecommerce.Productapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "OrderModel",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.models",
+        "description": "ecommerce.Productapp.models",
+        "peekOfCode": "class OrderModel(models.Model):\n    # product = models.ForeignKey(ProductModel,on_delete = models.DO_NOTHING)\n    customer_name = models.CharField(max_length = 100,blank=True,null=True)\n    delivery_address = models.CharField(max_length= 200,blank=True,null=True)\n    # quantity = models.FloatField(blank=True,null=True)\n    status = models.ForeignKey(PurchaseStatusModel,on_delete=models.DO_NOTHING)\n    city = models.CharField(max_length=100,blank=True,null=True)\n    contact = models.CharField(max_length=200,blank=True,null=True)\n    total = models.FloatField(default=0.0)\n    delivery_charge = models.FloatField(default=0.0)",
+        "detail": "ecommerce.Productapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "productorderedModel",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.models",
+        "description": "ecommerce.Productapp.models",
+        "peekOfCode": "class productorderedModel(models.Model):\n    order_id = models.ForeignKey(OrderModel,on_delete = models.CASCADE)\n    product = models.ForeignKey(ProductModel,on_delete=models.DO_NOTHING,null=True,blank=True)\n    quantity = models.FloatField(blank=True,null=True)\n    subtotal = models.FloatField(blank=True,null=True)\n    description = models.TextField(blank=True,null=True)\n    created_date = models.DateTimeField(auto_now_add=True)\n    updated_date = models.DateTimeField(auto_now = True) \nclass ContactModel(models.Model):\n    address = models.CharField(max_length=200,blank=True,null=True)",
+        "detail": "ecommerce.Productapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "ContactModel",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.models",
+        "description": "ecommerce.Productapp.models",
+        "peekOfCode": "class ContactModel(models.Model):\n    address = models.CharField(max_length=200,blank=True,null=True)\n    facebook = models.CharField(max_length=200,blank=True,null=True)\n    email = models.CharField(max_length=200,blank=True,null=True)\n    instagram = models.CharField(max_length=200,blank=True,null=True)\n    whatsapp = models.CharField(max_length = 200, blank=True,null=True)\n    description = models.TextField(blank=True,null=True)\n    created_date = models.DateTimeField(auto_now_add=True)\n    updated_date = models.DateTimeField(auto_now=True)\nclass MissingorderModel(models.Model):",
+        "detail": "ecommerce.Productapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "MissingorderModel",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.models",
+        "description": "ecommerce.Productapp.models",
+        "peekOfCode": "class MissingorderModel(models.Model):\n    customer_name = models.CharField(max_length=200,blank=True,null=True)\n    # product = models.ForeignKey(ProductModel,on_delete=models.DO_NOTHING)\n    contact = models.CharField(max_length = 100,blank=True,null=True)\n    city = models.CharField(max_length=100,blank=True,null=True)\n    created_date = models.DateTimeField(auto_now_add = True)\n    updated_date = models.DateTimeField(auto_now=True)\nclass MissingorderedproductModel(models.Model):\n    missorder_id = models.ForeignKey(MissingorderModel,on_delete=models.CASCADE)\n    product = models.ForeignKey(ProductModel,on_delete=models.DO_NOTHING)",
+        "detail": "ecommerce.Productapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "MissingorderedproductModel",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.models",
+        "description": "ecommerce.Productapp.models",
+        "peekOfCode": "class MissingorderedproductModel(models.Model):\n    missorder_id = models.ForeignKey(MissingorderModel,on_delete=models.CASCADE)\n    product = models.ForeignKey(ProductModel,on_delete=models.DO_NOTHING)\n    created_date = models.DateTimeField(auto_now_add = True)\n    updated_date = models.DateTimeField(auto_now=True)\n#not used this discount model in this project\nclass DiscountModel(models.Model):\n    product = models.ForeignKey(ProductModel,on_delete = models.CASCADE)\n    quantity = models.IntegerField(default=0)\n    price = models.FloatField(default=0.0)",
+        "detail": "ecommerce.Productapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "DiscountModel",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.models",
+        "description": "ecommerce.Productapp.models",
+        "peekOfCode": "class DiscountModel(models.Model):\n    product = models.ForeignKey(ProductModel,on_delete = models.CASCADE)\n    quantity = models.IntegerField(default=0)\n    price = models.FloatField(default=0.0)\n    description = models.TextField(blank=True,null=True)\n    created_date = models.DateTimeField(auto_now_add=True)\n    updated_date = models.DateTimeField(auto_now=True)",
+        "detail": "ecommerce.Productapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "CategorySerializer",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.serializers",
+        "description": "ecommerce.Productapp.serializers",
+        "peekOfCode": "class CategorySerializer(serializers.ModelSerializer):\n    class Meta:\n        model = CategoryModel\n        fields = '__all__'\nclass ImageSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = ImageModel\n        fields = '__all__'\nclass ProductSerializer(serializers.ModelSerializer):\n    images=ImageSerializer(many=True)",
+        "detail": "ecommerce.Productapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ImageSerializer",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.serializers",
+        "description": "ecommerce.Productapp.serializers",
+        "peekOfCode": "class ImageSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = ImageModel\n        fields = '__all__'\nclass ProductSerializer(serializers.ModelSerializer):\n    images=ImageSerializer(many=True)\n    category = serializers.SerializerMethodField()\n    class Meta:\n        model = ProductModel\n        fields = '__all__'",
+        "detail": "ecommerce.Productapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ProductSerializer",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.serializers",
+        "description": "ecommerce.Productapp.serializers",
+        "peekOfCode": "class ProductSerializer(serializers.ModelSerializer):\n    images=ImageSerializer(many=True)\n    category = serializers.SerializerMethodField()\n    class Meta:\n        model = ProductModel\n        fields = '__all__'\n    def get_category(self,obj):\n        if obj.category:\n            v_obj = CategoryModel.objects.filter(id=obj.category.id)\n            v_qs = CategorySerializer(v_obj, many=True)",
+        "detail": "ecommerce.Productapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "PurchaseStatusSerializer",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.serializers",
+        "description": "ecommerce.Productapp.serializers",
+        "peekOfCode": "class PurchaseStatusSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = PurchaseStatusModel\n        fields = '__all__'\nclass CitySerializer(serializers.ModelSerializer):\n    class Meta:\n        model = CityModel\n        fields = '__all__'\nclass OrderSerializer(serializers.ModelSerializer):\n    status = serializers.SerializerMethodField()",
+        "detail": "ecommerce.Productapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "CitySerializer",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.serializers",
+        "description": "ecommerce.Productapp.serializers",
+        "peekOfCode": "class CitySerializer(serializers.ModelSerializer):\n    class Meta:\n        model = CityModel\n        fields = '__all__'\nclass OrderSerializer(serializers.ModelSerializer):\n    status = serializers.SerializerMethodField()\n    class Meta:\n        model = OrderModel\n        fields = '__all__'\n    def get_status(self,obj):",
+        "detail": "ecommerce.Productapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "OrderSerializer",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.serializers",
+        "description": "ecommerce.Productapp.serializers",
+        "peekOfCode": "class OrderSerializer(serializers.ModelSerializer):\n    status = serializers.SerializerMethodField()\n    class Meta:\n        model = OrderModel\n        fields = '__all__'\n    def get_status(self,obj):\n        if obj.status:\n            v_obj = PurchaseStatusModel.objects.filter(id=obj.status.id)\n            v_qs = PurchaseStatusSerializer(v_obj,many=True)\n            return v_qs.data",
+        "detail": "ecommerce.Productapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "Productorderedserializer",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.serializers",
+        "description": "ecommerce.Productapp.serializers",
+        "peekOfCode": "class Productorderedserializer(serializers.ModelSerializer):\n    product = serializers.SerializerMethodField()\n    order_id = serializers.SerializerMethodField()\n    class Meta:\n        model = productorderedModel\n        fields = '__all__'  \n    def get_product(self,obj):\n        if obj.product:\n            v_obj = ProductModel.objects.filter(id=obj.product.id).select_related('category')\n            v_qs = ProductSerializer(v_obj,many=True)",
+        "detail": "ecommerce.Productapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ContactSerializer",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.serializers",
+        "description": "ecommerce.Productapp.serializers",
+        "peekOfCode": "class ContactSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = ContactModel\n        fields = '__all__'\nclass MissingOrderSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = MissingorderModel\n        fields = '__all__'\nclass Missingorderedproductserializer(serializers.ModelSerializer):\n    product = serializers.SerializerMethodField()",
+        "detail": "ecommerce.Productapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "MissingOrderSerializer",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.serializers",
+        "description": "ecommerce.Productapp.serializers",
+        "peekOfCode": "class MissingOrderSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = MissingorderModel\n        fields = '__all__'\nclass Missingorderedproductserializer(serializers.ModelSerializer):\n    product = serializers.SerializerMethodField()\n    missorder_id = serializers.SerializerMethodField()\n    class Meta:\n        model = MissingorderedproductModel\n        fields = '__all__'  ",
+        "detail": "ecommerce.Productapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "Missingorderedproductserializer",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.serializers",
+        "description": "ecommerce.Productapp.serializers",
+        "peekOfCode": "class Missingorderedproductserializer(serializers.ModelSerializer):\n    product = serializers.SerializerMethodField()\n    missorder_id = serializers.SerializerMethodField()\n    class Meta:\n        model = MissingorderedproductModel\n        fields = '__all__'  \n    def get_product(self,obj):\n        if obj.product:\n            v_obj = ProductModel.objects.filter(id=obj.product.id).select_related('category')\n            v_qs = ProductSerializer(v_obj,many=True)",
+        "detail": "ecommerce.Productapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "DiscountSerializer",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.serializers",
+        "description": "ecommerce.Productapp.serializers",
+        "peekOfCode": "class DiscountSerializer(serializers.ModelSerializer):\n    product = serializers.SerializerMethodField()\n    class Meta:\n        model = DiscountModel\n        fields ='__all__' \n    def get_product(self,obj):\n        if obj.product:\n            v_obj = ProductModel.objects.filter(id=obj.product.id).select_related('category')\n            v_qs = ProductSerializer(v_obj,many=True)\n            return v_qs.data",
+        "detail": "ecommerce.Productapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "ecommerce.Productapp.urls",
+        "description": "ecommerce.Productapp.urls",
+        "peekOfCode": "urlpatterns = [\n    path('category/',CategoryView.as_view()),\n    path('image/',ImageView.as_view()),\n    path('product/',ProductView.as_view()),\n    path('status/',PurchaseStatusView.as_view()),\n    path('city/',CityView.as_view()),\n    path('order/',OrderView.as_view()),\n    path('ordererproduct/',Orderedproductview.as_view()),\n    path('contact/',ContactView.as_view()),\n    path('missingorder/',MissingOrderView.as_view()),",
+        "detail": "ecommerce.Productapp.urls",
+        "documentation": {}
+    },
+    {
+        "label": "CategoryView",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.views",
+        "description": "ecommerce.Productapp.views",
+        "peekOfCode": "class CategoryView(ListAPIView):\n    permission_classes = (IsAuthenticatedOrReadOnly,)\n    serializer_class = CategorySerializer\n    def get_queryset(self):\n        try:\n            category_type = self.request.GET.get('category_type')\n            id = self.request.GET.get('id')\n            qs = CategoryModel.objects.all()\n            if category_type : qs = qs.filter(category_type=category_type)\n            if id : qs = qs.filter(id=id)",
+        "detail": "ecommerce.Productapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "ImageView",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.views",
+        "description": "ecommerce.Productapp.views",
+        "peekOfCode": "class ImageView(ListAPIView):\n    permission_classes = (IsAuthenticatedOrReadOnly,)\n    serializer_class = ImageSerializer\n    def get_queryset(self):\n        try:\n            id = self.request.GET.get('id')\n            qs = ImageModel.objects.all()    \n            if id : qs = qs.filter(id=id)\n            return qs\n        except: return None",
+        "detail": "ecommerce.Productapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "ProductView",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.views",
+        "description": "ecommerce.Productapp.views",
+        "peekOfCode": "class ProductView(ListAPIView):\n    permission_classes = (AllowAny,)\n    serializer_class = ProductSerializer\n    def get_queryset(self):\n        try:\n            # print(\"status\",self.request.GET.get('status'))\n            statusp = self.request.GET.get('status')\n            # print(\"ststy\",statusp)\n            Title = self.request.GET.get('Title')\n            id = self.request.GET.get('id')",
+        "detail": "ecommerce.Productapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "PurchaseStatusView",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.views",
+        "description": "ecommerce.Productapp.views",
+        "peekOfCode": "class PurchaseStatusView(ListAPIView):\n    permission_classes = (IsAuthenticatedOrReadOnly,)\n    serializer_class = PurchaseStatusSerializer\n    def get_queryset(self):\n        try:\n            id = self.request.GET.get('id')\n            qs = PurchaseStatusModel.objects.all()\n            if id : qs = qs.filter(id=id)\n            return qs\n        except: return None",
+        "detail": "ecommerce.Productapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "CityView",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.views",
+        "description": "ecommerce.Productapp.views",
+        "peekOfCode": "class CityView(ListAPIView):\n    permission_classes = (IsAuthenticatedOrReadOnly,)\n    serializer_class = CitySerializer\n    def get_queryset(self):\n        try:\n            id = self.request.GET.get('id')\n            qs = CityModel.objects.all()\n            if id : qs = qs.filter(id=id)\n            return qs\n        except: return None",
+        "detail": "ecommerce.Productapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "OrderView",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.views",
+        "description": "ecommerce.Productapp.views",
+        "peekOfCode": "class OrderView(ListAPIView):\n    permission_classes = (AllowAny,)\n    serializer_class = OrderSerializer\n    def get_queryset(self):\n        try:\n            id = self.request.GET.get('id')\n            purchase_status = self.request.GET.get(\"status\")\n            product = self.request.GET.get('product')\n            customer_name = self.request.GET.get('customer_name')\n            qs = OrderModel.objects.all().select_related('status')",
+        "detail": "ecommerce.Productapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "Orderedproductview",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.views",
+        "description": "ecommerce.Productapp.views",
+        "peekOfCode": "class Orderedproductview(ListAPIView):\n    serializer_class = Productorderedserializer\n    permission_classes = (IsAuthenticatedOrReadOnly,)\n    def get_queryset(self):\n        try:\n            id = self.request.GET.get('id')\n            order_id = self.request.GET.get('order_id')\n            product = self.request.GET.get('product')\n            qs= productorderedModel.objects.all()\n            if id : qs= qs.filter(id=id)",
+        "detail": "ecommerce.Productapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "ContactView",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.views",
+        "description": "ecommerce.Productapp.views",
+        "peekOfCode": "class ContactView(ListAPIView):\n    permission_classes = (IsAuthenticatedOrReadOnly,)\n    serializer_class = ContactSerializer\n    def get_queryset(self):\n        try:\n            id = self.request.GET.get('id')\n            qs = ContactModel.objects.all()\n            if id : qs = qs.filter(id=id)\n            return qs.order_by('-id')\n        except: return None",
+        "detail": "ecommerce.Productapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "MissingOrderView",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.views",
+        "description": "ecommerce.Productapp.views",
+        "peekOfCode": "class MissingOrderView(ListAPIView):\n    permission_classes = (AllowAny,)\n    serializer_class = MissingOrderSerializer\n    def get_queryset(self):\n        try:\n            id = self.request.GET.get('id')\n            qs = MissingorderModel.objects.all()\n            if id : qs = qs.filter(id=id)\n            return qs\n        except: return None",
+        "detail": "ecommerce.Productapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "Missingorderedproductview",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.views",
+        "description": "ecommerce.Productapp.views",
+        "peekOfCode": "class Missingorderedproductview(ListAPIView):\n    serializer_class = Missingorderedproductserializer\n    permission_classes = (IsAuthenticatedOrReadOnly,)\n    def get_queryset(self):\n        try:\n            print(\"data\",self.request.GET.get('missorder_id'))\n            id = self.request.GET.get('id')\n            missorder_id = self.request.GET.get('missorder_id')\n            product = self.request.GET.get('product')\n            qs= MissingorderedproductModel.objects.all()",
+        "detail": "ecommerce.Productapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "DiscountView",
+        "kind": 6,
+        "importPath": "ecommerce.Productapp.views",
+        "description": "ecommerce.Productapp.views",
+        "peekOfCode": "class DiscountView(ListAPIView):\n    serializer_class = DiscountSerializer\n    permission_classes = (IsAuthenticatedOrReadOnly,)\n    def get_queryset(self):\n        try:\n            id = self.request.GET.get('id')\n            product = self.request.GET.get('product')\n            qs = DiscountModel.objects.all().select_related('product')\n            if id: qs = qs.filter(id=id)\n            if product : qs=qs.filter(product__id=product)",
+        "detail": "ecommerce.Productapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "ecommerce.Userapp.migrations.0001_initial",
+        "description": "ecommerce.Userapp.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('auth', '0012_alter_user_first_name_max_length'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='UserModel',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "ecommerce.Userapp.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "ecommerce.Userapp.migrations.0002_alter_usermodel_contact_alter_usermodel_dob_and_more",
+        "description": "ecommerce.Userapp.migrations.0002_alter_usermodel_contact_alter_usermodel_dob_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Userapp', '0001_initial'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='usermodel',\n            name='contact',\n            field=models.CharField(blank=True, max_length=100, null=True),\n        ),",
+        "detail": "ecommerce.Userapp.migrations.0002_alter_usermodel_contact_alter_usermodel_dob_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "UserappConfig",
+        "kind": 6,
+        "importPath": "ecommerce.Userapp.apps",
+        "description": "ecommerce.Userapp.apps",
+        "peekOfCode": "class UserappConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'Userapp'",
+        "detail": "ecommerce.Userapp.apps",
+        "documentation": {}
+    },
+    {
+        "label": "UserModel",
+        "kind": 6,
+        "importPath": "ecommerce.Userapp.models",
+        "description": "ecommerce.Userapp.models",
+        "peekOfCode": "class UserModel(AbstractUser):\n    gender = models.CharField(max_length=100,blank=True,null=True)\n    dob = models.DateField(blank=True,null=True)\n    contact = models.CharField(max_length=100,blank=True,null=True) \n    status = models.CharField(max_length=100,blank=True)\n    is_admin = models.BooleanField(default=False)",
+        "detail": "ecommerce.Userapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserSerializer",
+        "kind": 6,
+        "importPath": "ecommerce.Userapp.serializers",
+        "description": "ecommerce.Userapp.serializers",
+        "peekOfCode": "class UserSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = UserModel\n        fields = '__all__'\nclass UserLoginSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = UserModel\n        fields = ['email','password']",
+        "detail": "ecommerce.Userapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "UserLoginSerializer",
+        "kind": 6,
+        "importPath": "ecommerce.Userapp.serializers",
+        "description": "ecommerce.Userapp.serializers",
+        "peekOfCode": "class UserLoginSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = UserModel\n        fields = ['email','password']",
+        "detail": "ecommerce.Userapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "ecommerce.Userapp.urls",
+        "description": "ecommerce.Userapp.urls",
+        "peekOfCode": "urlpatterns = [\n    path('user/',UserView.as_view()),\n    path('whoami/',WhoAmI.as_view()),\n]",
+        "detail": "ecommerce.Userapp.urls",
+        "documentation": {}
+    },
+    {
+        "label": "UserView",
+        "kind": 6,
+        "importPath": "ecommerce.Userapp.views",
+        "description": "ecommerce.Userapp.views",
+        "peekOfCode": "class UserView(ListAPIView):\n    permission_classes = (IsAuthenticated,)\n    serializer_class = UserSerializer\n    def get_queryset(self):\n        try:\n            # print(\"data\",self.request.data)\n            userid = self.request.user.id\n            qs = UserModel.objects.all()\n            user = self.request.GET.get('user')\n            # customer = self.request.GET.get('customer')",
+        "detail": "ecommerce.Userapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "WhoAmI",
+        "kind": 6,
+        "importPath": "ecommerce.Userapp.views",
+        "description": "ecommerce.Userapp.views",
+        "peekOfCode": "class WhoAmI(ListAPIView):\n    permission_classes = (IsAuthenticated,)\n    def get(self,request):\n        try:\n            return Response({\n                \"Status\":1,\n                \"Data\":self.request.user.username   \n            })\n        except Exception as e: return Response({\"Status\":status.HTTP_400_BAD_REQUEST,\"Message\":str(e),})",
+        "detail": "ecommerce.Userapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "ecommerce.manage",
+        "description": "ecommerce.manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ecommerce.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "ecommerce.manage",
+        "documentation": {}
+    }
+]

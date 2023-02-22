@@ -26,10 +26,10 @@ urlpatterns = [
     path('status/',PurchaseStatusView.as_view()),
     path('city/',CityView.as_view()),
     path('order/',OrderView.as_view()),
-    path('ordererproduct/',Orderedproductview.as_view()),
+    # path('ordererproduct/',Orderedproductview.as_view()),
     path('contact/',ContactView.as_view()),
     path('missingorder/',MissingOrderView.as_view()),
-    path('missingorderproduct/',Missingorderedproductview.as_view()),
+    # path('missingorderproduct/',Missingorderedproductview.as_view()),
     
   
 ]
