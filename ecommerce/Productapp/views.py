@@ -444,7 +444,7 @@ class MissingOrderView(ListAPIView):
             id = self.request.GET.get('id')
             qs = MissingorderModel.objects.all()
             if id : qs = qs.filter(id=id)
-            return qs
+            return qs.order_by('-id')
         except: return None
     
     def post(self,request):

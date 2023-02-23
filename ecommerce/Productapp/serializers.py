@@ -36,7 +36,7 @@ class CitySerializer(serializers.ModelSerializer):
         fields = '__all__'
 
 class OrderSerializer(serializers.ModelSerializer):
-    
+    product = serializers.SerializerMethodField()
     status = serializers.SerializerMethodField()
    
     class Meta:
