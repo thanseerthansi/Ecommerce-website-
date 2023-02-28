@@ -40,6 +40,7 @@ class ProductModel(models.Model):
     is_discount = models.BooleanField(default=False)
     description = models.TextField(blank=True,null=True)
     status = models.BooleanField(default=True)
+    vat = models.BooleanField(default=True)
     created_date = models.DateTimeField(auto_now_add = True)
     updated_date = models.DateTimeField(auto_now=True)
 
