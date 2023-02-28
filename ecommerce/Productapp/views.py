@@ -341,7 +341,7 @@ class OrderView(ListAPIView):
     def post(self,request):
         try:
             #pass status not id 
-            print("data",self.request.data)
+            # print("data",self.request.data)
             # try:order_data = self.request.data[0]
             # except:order_data =""
             # if order_data:
@@ -376,7 +376,7 @@ class OrderView(ListAPIView):
             else:
                 order_data_obj =  OrderSerializer(data=self.request.data,partial=True)
                 msg = "Saved Successfully"
-            print("prodct",product_qs)
+            # print("prodct",product_qs)
             order_data_obj.is_valid(raise_exception=True)
             order_data_saved = order_data_obj.save(status=status_qs,product=product_qs)
             return Response({"Status":status.HTTP_200_OK,"Message":msg})
