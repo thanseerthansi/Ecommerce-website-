@@ -63,11 +63,12 @@ class OrderModel(models.Model):
     delivery_address = models.CharField(max_length= 200,blank=True,null=True)
     quantity = models.FloatField(blank=True,null=True)
     status = models.ForeignKey(PurchaseStatusModel,on_delete=models.DO_NOTHING)
+    missorder_status = models.BooleanField(default=False)
     city = models.CharField(max_length=100,blank=True,null=True)
     contact = models.CharField(max_length=200,blank=True,null=True)
     total = models.FloatField(default=0.0)
     delivery_charge = models.FloatField(default=0.0)
-    subtotal_price = models.FloatField(default=0.0)
+    price = models.FloatField(default=0.0)
     description = models.TextField(blank=True,null=True)
     created_date = models.DateTimeField(auto_now_add=True)
     updated_date = models.DateTimeField(auto_now = True)
@@ -96,6 +97,9 @@ class MissingorderModel(models.Model):
     product = models.ForeignKey(ProductModel,on_delete=models.DO_NOTHING,null=True)
     contact = models.CharField(max_length = 100,blank=True,null=True)
     city = models.CharField(max_length=100,blank=True,null=True)
+    delivery_address = models.CharField(max_length= 200,blank=True,null=True)
+    quantity = models.FloatField(blank=True,null=True)
+
     created_date = models.DateTimeField(auto_now_add = True)
     updated_date = models.DateTimeField(auto_now=True)
 
