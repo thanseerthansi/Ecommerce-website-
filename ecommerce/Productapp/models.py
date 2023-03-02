@@ -68,6 +68,8 @@ class OrderModel(models.Model):
     contact = models.CharField(max_length=200,blank=True,null=True)
     total = models.FloatField(default=0.0)
     delivery_charge = models.FloatField(default=0.0)
+    size = models.FloatField(default=0.0)
+    color = models.CharField(max_length=100,blank=True,null=True)
     price = models.FloatField(default=0.0)
     description = models.TextField(blank=True,null=True)
     created_date = models.DateTimeField(auto_now_add=True)
