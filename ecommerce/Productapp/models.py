@@ -101,7 +101,10 @@ class MissingorderModel(models.Model):
     city = models.CharField(max_length=100,blank=True,null=True)
     delivery_address = models.CharField(max_length= 200,blank=True,null=True)
     quantity = models.FloatField(blank=True,null=True)
-
+    delivery_charge = models.FloatField(default=0.0)
+    size = models.FloatField(default=0.0)
+    color = models.CharField(max_length=100,blank=True,null=True)
+    price = models.FloatField(default=0.0)
     created_date = models.DateTimeField(auto_now_add = True)
     updated_date = models.DateTimeField(auto_now=True)
 

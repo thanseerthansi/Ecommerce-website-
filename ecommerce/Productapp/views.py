@@ -379,6 +379,14 @@ class OrderView(ListAPIView):
             # print("prodct",product_qs)
             order_data_obj.is_valid(raise_exception=True)
             order_data_saved = order_data_obj.save(status=status_qs,product=product_qs)
+            #  to delete missorder
+            try:missorder_id = self.request.data['missorder'] 
+            except:missorder_id = ''
+            if missorder_id:
+                missorder_qs = MissingorderModel.objects.filter(id=missorder_id)
+                if missorder_qs:
+                    if missorder_qs.count():
+                        missorder_qs.delete()
             return Response({"Status":status.HTTP_200_OK,"Message":msg})
                     
         except Exception as e: return Response({"Status":status.HTTP_400_BAD_REQUEST,"Message":str(e)})
@@ -471,9 +479,17 @@ class MissingOrderView(ListAPIView):
             else:
                 order_data_obj =  MissingOrderSerializer(data=self.request.data,partial=True)
                 msg = "Saved Successfully"
-            order_data_obj.is_valid(raise_exception=True)
-            order_data_saved = order_data_obj.save(product=product_qs)          
-            return Response({"Status":status.HTTP_200_OK,"Message":msg})
+            try:customer = self.request.data['customer_name']
+            except:customer =''
+            if customer:
+                last_missorder = MissingorderModel.objects.filter(customer_name=customer,product=product_qs)
+                if last_missorder.count():
+                    pass
+                else:
+                    order_data_obj.is_valid(raise_exception=True)
+                    order_data_saved = order_data_obj.save(product=product_qs)          
+                    return Response({"Status":status.HTTP_200_OK,"Message":msg,"m_id":order_data_saved.id})
+            return Response({"Status":status.HTTP_200_OK,"Message":msg,"m_id":''})
         except Exception as e: return Response({"Status":status.HTTP_400_BAD_REQUEST,"Message":str(e)})
     
     def delete(self,request):
