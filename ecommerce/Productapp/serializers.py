@@ -1,4 +1,5 @@
 # from dataclasses import fields
+import dataclasses
 from rest_framework import serializers
 from .models import *
 
@@ -91,6 +92,11 @@ class MissingOrderSerializer(serializers.ModelSerializer):
             v_qs = ProductSerializer(v_obj,many=True)
             return v_qs.data
         else:pass
+
+class MetatagsSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = MetatagsModel
+        fields = '__all__'
 # class Missingorderedproductserializer(serializers.ModelSerializer):
 #     product = serializers.SerializerMethodField()
 #     missorder_id = serializers.SerializerMethodField()

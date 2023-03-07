@@ -29,6 +29,7 @@ urlpatterns = [
     # path('ordererproduct/',Orderedproductview.as_view()),
     path('contact/',ContactView.as_view()),
     path('missingorder/',MissingOrderView.as_view()),
+    path('metatags/',MetatagsView.as_view()),
     # path('missingorderproduct/',Missingorderedproductview.as_view()),
     
   

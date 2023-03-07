@@ -4,6 +4,7 @@ from Productapp.serializers import *
 from ecommerce.globalimport import *
 import rest_framework
 
+
 # Create your views here.
 class CategoryView(ListAPIView):
     permission_classes = (IsAuthenticatedOrReadOnly,)
@@ -503,7 +504,48 @@ class MissingOrderView(ListAPIView):
             else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"No Records Found with given id"})
         except Exception as e:return Response({"Status":status.HTTP_400_BAD_REQUEST,"Message":str(e)})
 
+class MetatagsView(ListAPIView):
+    serializer_class = MetatagsSerializer
+    permission_classes = (IsAuthenticatedOrReadOnly,)
+    def get_queryset(self):
+        try:
         
+            id = self.request.GET.get('id')
+            tagname = self.request.GET.get('name')
+            qs = MetatagsModel.objects.all()
+            if id: qs = qs.filter(id=id)
+            if tagname : qs =qs.filter(name = tagname)
+            return qs.order_by('-id')
+        except:return None
+    def post(self,request):
+        try:
+            try: tagid = self.request.data['id']
+            except:tagid = ''
+            if tagid:
+                metatag_qs = MetatagsModel.objects.filter(id=tagid)
+                if metatag_qs.count():
+                    metatag_qs = metatag_qs.first()
+                    metatag_obj = MetatagsSerializer(metatag_qs,data=self.request.data,partial=True)
+                    msg = "Updated Successfully"
+                else: return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"No data Found with given id"})
+            else:
+                metatag_obj = MetatagsSerializer(data=self.request.data,partial=True)
+                msg = "Saved Successfully"
+            metatag_obj.is_valid(raise_exception=True)
+            metatag_obj.save()
+            return Response({"Status":status.HTTP_200_OK,"Message":msg})
+        except Exception as e:return Response({"Status":status.HTTP_400_BAD_REQUEST,"Message":str(e)})
+    def delete(self,request):
+        try:
+            id = self.request.data['id']
+            if id :
+                obj  =  MetatagsModel.objects.filter(id=id)
+                if obj.count():
+                    obj.delete()
+                    return Response({"Status":status.HTTP_200_OK,"Message":"Successfully Deleted"})
+                else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"No Data Found with given id"})
+            else : return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"id Not Provided"})
+        except Exception as e : return Response({"Status":status.HTTP_400_BAD_REQUEST,"Message":str(e)})
 #not used v
 # class DiscountView(ListAPIView):
 #     serializer_class = DiscountSerializer

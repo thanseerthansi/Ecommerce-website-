@@ -90,6 +90,7 @@ class ContactModel(models.Model):
     email = models.CharField(max_length=200,blank=True,null=True)
     instagram = models.CharField(max_length=200,blank=True,null=True)
     whatsapp = models.CharField(max_length = 200, blank=True,null=True)
+    contact = models.CharField(max_length = 200, blank=True,null=True)
     description = models.TextField(blank=True,null=True)
     created_date = models.DateTimeField(auto_now_add=True)
     updated_date = models.DateTimeField(auto_now=True)
@@ -102,12 +103,17 @@ class MissingorderModel(models.Model):
     delivery_address = models.CharField(max_length= 200,blank=True,null=True)
     quantity = models.FloatField(blank=True,null=True)
     delivery_charge = models.FloatField(default=0.0)
-    size = models.FloatField(default=0.0)
+    size = models.FloatField(default=0.0)   
     color = models.CharField(max_length=100,blank=True,null=True)
     price = models.FloatField(default=0.0)
     created_date = models.DateTimeField(auto_now_add = True)
     updated_date = models.DateTimeField(auto_now=True)
 
+class MetatagsModel(models.Model):
+    name = models.CharField(max_length=100,blank=True)
+    tags = models.TextField(blank=True)
+    created_date = models.DateTimeField(auto_now_add = True)
+    updated_date = models.DateTimeField(auto_now=True)
 # class MissingorderedproductModel(models.Model):
 #     missorder_id = models.ForeignKey(MissingorderModel,on_delete=models.CASCADE)
 #     product = models.ForeignKey(ProductModel,on_delete=models.DO_NOTHING)
