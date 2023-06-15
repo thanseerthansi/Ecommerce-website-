@@ -344,7 +344,7 @@ class OrderView(ListAPIView):
             #pass status not id 
             # print("data",self.request.data)
             # try:order_data = self.request.data[0]
-            # except:order_data =""
+            # except:order_data ="" 
             # if order_data:
             try:purchasetatus = self.request.data['purchasestatus']
             except:purchasetatus = ''
